@@ -76,7 +76,7 @@ export default function MathQuiz() {
 
     setTimeout(() => {
       setFeedback("");
-      if (currentIndex < 9) {
+      if (currentIndex < 10) {
         setCurrentIndex(currentIndex + 1);
         setCurrentQuestion(generateQuestion(operation));
       } else {
